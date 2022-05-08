@@ -43,6 +43,7 @@ app.layout= dbc.Container(
                         ),
 
             ]),
+                # order 2 puts this column on the right side of the row
                 width={'size': 9, 'offset': 0, 'order': 2}),
 
             # Second Column dropdown menu
@@ -78,6 +79,7 @@ app.layout= dbc.Container(
                     style={'width': '85%', 'height': 250}
                 )            
             ]),
+                # order 1 puts this column on the left side of the row
                 width={'size': 3, 'offset': 0, 'order': 1}),            
             
             
