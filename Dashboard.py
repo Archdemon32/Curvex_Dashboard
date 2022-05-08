@@ -107,7 +107,7 @@ def running_server():
         login_name= login_name.title()
         if login_name == "Filip Gavalier":
             print("\n\t\tHello Filip Gavalier. You can see the graphical representation of the data if you click on the link above. ")
-            print("\t\tTo leave the app, please press CTRL+C. ")
+            print("\t\tTo leave the app, please press CTRL+C.\n ")
             app.run_server()
             
         else:
