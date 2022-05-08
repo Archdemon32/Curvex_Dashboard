@@ -33,12 +33,9 @@ app.layout= dbc.Container(
             dbc.Col(html.Div(children=[
 
                 html.Br(),
-                #html.Hr(),
                 html.H4('Graphical representation of measured data', className='text-center'),
                 html.Br(),
-                #html.Hr(),
                 dcc.Graph(id='Graph1',
-                        #figure=fig_Delta,
                         style={'height': 550},
                         ),
 
@@ -48,7 +45,6 @@ app.layout= dbc.Container(
 
             # Second Column dropdown menu
             dbc.Col(html.Div(children=[
-                #html.Hr(),
                 html.Br(),
                 html.Img(src= 'assets/curvexlogo.png'),
                 html.Br(),
@@ -57,8 +53,6 @@ app.layout= dbc.Container(
                 html.Br(),
                 html.Br(),
                 html.H3('Choose the value'),
-                #html.Br(),
-                #html.Hr(),
                 dcc.Dropdown(
                     id='Value-Selector',
                     options= dd_value_dict,
@@ -106,7 +100,7 @@ def change_graph(value):
 
 
 
-# running the server
+# running the server and restricting the access based on the login name
 def running_server():
     if __name__ == '__main__':
         login_name= input("\t\tPlease enter your full name to access the data: ")
