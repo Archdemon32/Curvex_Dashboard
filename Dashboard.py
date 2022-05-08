@@ -108,7 +108,7 @@ def running_server():
         if login_name == "Filip Gavalier":
             print("\n\t\tHello Filip Gavalier. You can see the graphical representation of the data if you click on the link above. ")
             print("\t\tTo leave the app, please press CTRL+C. ")
-            app.run_server(debug=True)
+            app.run_server()
             
         else:
             print("\n\t\t Sorry "+ login_name + ". The database does not recognize this name. Try again Later. ")
