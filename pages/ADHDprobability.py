@@ -167,7 +167,7 @@ def machine_learning():
             ])
         else:
             return html.Div([
-                html.H2('didnt work')
+                html.H2('Something went wrong')
             ])
     except Exception as e:
         print(e)
