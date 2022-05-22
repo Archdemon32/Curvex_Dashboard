@@ -231,7 +231,7 @@ def split_data(button):
         third_split.fillna( method='bfill', inplace=True)
         third_split.to_csv('Third_split.csv', index=False, sep=',')   
     else:
-        print("nah")
+        print("Something went wrong")
 # making the graph interactive   
     
 @callback(
