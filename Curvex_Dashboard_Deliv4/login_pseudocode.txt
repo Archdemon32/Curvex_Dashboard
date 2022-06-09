@@ -9,7 +9,7 @@ create a class called 'User':
 create a class called 'Roles':
     use a table called 'roles'
     create an ID using the database column to set the primary key of this class
-    create variable 'roles' specifying the database column that contains roles names ( basic user, medical experts, curvex employees)
+    create variable 'roles' specifying the database column that contains roles names ( basic user, health experts, curvex employees)
     
 
 create a class called 'UserRoles':
