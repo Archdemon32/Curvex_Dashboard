@@ -23,6 +23,6 @@ CreateTable()
 #Creating a pymongo client
 client = MongoClient('mongodb://localhost:27017')
 
-#Creatng the database and the collection
+#Creating the database and the collection
 pepa= client['mydb']
 collection = pepa['Deliv5']
